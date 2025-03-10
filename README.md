@@ -90,3 +90,18 @@
 - Create an API endpoint to delete a product from MongoDB using its ID.
 - Implement a delete button in the frontend on each product card.
 - Send a delete request to the backend when the button is clicked
+
+## Milestone-15
+- Created an new Nav component with links to
+- Created a link to Home
+- Created a link to My-products
+- Created a link to Add product
+- Created a link to cart
+
+## Milestone-16
+- Created new page to display each product.
+- Created add quantity and add to cart button.
+
+## Milestone-18
+- Created an Backend endpoint for cart page
+- Wrote endpoint to get products inside cart for user
