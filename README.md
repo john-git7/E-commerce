@@ -79,7 +79,7 @@
 ## Milestone 13
 
 - Create an API endpoint that receives new data.
-- Use MongoDB’s update operation to modify the existing data.
+- Use MongoDB's update operation to modify the existing data.
 - Add an Edit button to the product card.
 - When clicked, the existing data is sent to a form.
 - Auto-fill the form with previous data.
