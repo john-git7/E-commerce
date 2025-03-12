@@ -28,6 +28,7 @@ function App() {
                 <Route path="/login" element={<LoginPage />} />
                 <Route path="/signup" element={<SignupPage />} />
                 <Route path="/productCreate" element={<CreateProduct />} />
+                <Route path="/my-product" element={<MyProduct />} />
             </Routes>
         </>
     );
