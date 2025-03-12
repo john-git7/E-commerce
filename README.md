@@ -105,3 +105,8 @@
 ## Milestone-18
 - Created an Backend endpoint for cart page
 - Wrote endpoint to get products inside cart for user
+
+## Milestone-19
+- Created cart frontend page and displayed the products
+- For each product added an option to increase and decrease quantity using + and - buttons.
+- Created an Backend endpoint for increase and decrease quantity
