@@ -7,6 +7,12 @@ import { LoginPage, SignupPage, Home, CreateProduct } from "../src/Routes/Routes
 //import { Bounce } from "react-awesome-reveal";
 import server from "./server";
 import axios from "axios";
+import MyProduct from "./Page/myProduct";
+import ActivationPage from "./Page/Activation";
+import Cart from "./Page/cart";
+import Profile from "./Page/profile";           
+import CreateAddress from "./Page/createAddress";
+import ProductDetail from "./Page/ProductDetail"; 
 
 function App() {
     const [count, setCount] = useState(0);
@@ -28,10 +34,24 @@ function App() {
                 <Route path="/login" element={<LoginPage />} />
                 <Route path="/signup" element={<SignupPage />} />
                 <Route path="/productCreate" element={<CreateProduct />} />
-                <Route path="/my-product" element={<MyProduct />} />
+                <Route path="/myProduct" element={<MyProduct />} />
+                <Route path="/activation/:Activation_Token" element={<ActivationPage />}/>
+                <Route path="/cart" element={<Cart/>}/>
+                <Route path="/profile" element={<Profile />} />
+                <Route path='/create-address' element={<CreateAddress />} />
+                <Route path="/product/:id" element={<ProductDetail/>}/>
             </Routes>
         </>
     );
 }
 
 export default App;
+
+{/*  /> 
+                
+                <Route path="/productCreate" element={<CreateProduct/>}/>
+                <Route path="/my-product" element={<MyProduct/>}/>
+                <Route path="/cart" element={<Cart/>}/>
+               
+                <Route path="/profile" element={<Profile />} />
+                <Route path='/create-address' element={<CreateAddress />} /> */}

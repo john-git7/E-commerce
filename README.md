@@ -115,3 +115,16 @@
 - Created backend endpoint that will send all the user data using mail.
 - Created an frontend profile page that will display all the user data
 - Displayed profile photo, name, mail and addresses.
+- Another section to display address and add an button called "Add address"
+- Display "No address found" if it is not found
+
+### Milestone 21
+
+- Created address form frontend page
+- Created an state that will store input address
+- Navigating address in profile  to this form page.
+
+### Milestone 22
+
+- Created an endpoint that will receive the address from address form in frontend
+- Added the address to the address array inside user collection.
